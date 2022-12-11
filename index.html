@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        
+       <style>
+        body {
+    background-color:#f53c2f;
+    font-family: 'Open Sans', serif;
+    font-size: 16px
+}
+
+.container-fluid {
+    margin-top: 1000px
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 2.40rem
+}
+
+.model-wrap  {
+    padding-left: 10px;
+    padding-right: 3px
+}
+
+.brand-wrap  {
+    padding-left: 130px;
+    padding-right: 3px
+}
+.price-wrap  {
+    padding-left: 130px;
+    padding-right: 3px
+}
+.repair-wrap  {
+    padding-left: 120px;
+    padding-right: 3px
+}
+
+.table-shopping-cart .price-wrap {
+    line-height: 2.6
+}
+
+.table-shopping-cart .Estimated-price {
+    font-weight: bold;
+    margin-right: 5px;
+    display:block
+}
+
+.text-muted {
+    color: #0c0c0c !important
+   
+}
+
+a {
+    text-decoration: none !important
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 3;
+    word-wrap: normal;
+    background-color: rgb(239, 240, 246);
+    background-clip: border-box;
+    border: 1px solid #06000020;
+    border-radius: 0px
+}
+
+.itemside {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%
+}
+
+.dlist-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+[class*="dlist-"] {
+    margin-bottom: 5px
+}
+
+.coupon {
+    border-radius: 1px
+}
+
+.estimated price {
+    font-weight: 600;
+    color: #212529
+}
+
+.btn.btn-out {
+    outline: 1px solid rgb(20, 20, 20);
+    outline-offset: -5px
+}
+
+.btn-main {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 19px;
+    cursor: pointer;
+    color: rgb(11, 10, 10);
+    width: 100%
+}
+
+.btn-light {
+    color: #050303;
+    background-color: #f19b70;
+    border-color: #070e14;
+    font-size: 12px
+}
+
+.btn-light:hover {
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #F44336
+}
+
+.btn-apply {
+    font-size: 11px
+}
+
+       </style>
+        <h1 style="font-size:60px"><strong>CART</strong></h1>
+    </head>    
+        <div class="container.fluid">
+            <div class="row">
+                <aside class="col-lg-9">
+                    <div class="card">
+                        <div class="table-responsive">
+                            <table class="table table-borderless table-shopping-cart">
+                                <thead class="text-muted">
+                                    <tr class="small text-uppercase">
+                                        <th scope="col" width="'350">Model</th>
+                                        <th scope ="col" width="350">Brand</th>
+                                        <th scope="col" width="350">Repair type</th>
+                                        <th scope="col" width="350">Estimated Price</th>
+                                        <th scope="col" class="text-right d-none d-md-block" width="200"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="model-wrap">Android</i></div>
+                                            
+                                        </td>
+                                        <td>
+                                            <div class="brand-wrap"> Samsung galaxy M33</div>
+                                        </td>
+                                        <td><div class="repair-wrap">
+                                            <select class="form-control">
+                                                <option>Battery replacement</option>
+                                                <option>Temper glass replacement</option>
+                                                <option>Display+glass replacement</option>
+                                                <option>Camera replacement</option>
+                                                <option>Charging port replacement</option>
+                                                <option>Power button replacement</option>
+                                                <option>Body housing</option>
+                                                <option>Speaker replacement</option>
+                                            </select></div></td>
+                                        <td>
+                                            <div class="price-wrap"> ₹2000 </div>
+                                        </td>
+                                        <td class="text-right d-none d-md-block"> <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart"></i></a> <a href="" class="btn btn-light btn-round" data-abc="true"> Remove </a> </td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="col-lg-3">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group"> <label>Have coupon?</label>
+                                    <div class="input-group"> <input type="text" class="form-control coupon" name="" placeholder="Coupon code"> <span class="input-group-append"> <button class="btn btn-primary btn-apply coupon">Apply</button> </span> </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <dl class="dlist-align">
+                                <dt>Total price: ₹2000</dt>
+                                <dd class="text-right ml-3"></dd>
+                            </dl>
+                            <dl class="dlist-align">
+                                <dt>Discount:</dt>
+                                <dd class="text-right text-danger ml-3"></dd>
+                            </dl>
+                            <dl class="dlist-align">
+                                <dt>Total:</dt>
+                                <dd class="text-right text-dark b ml-3"><strong>₹2000</strong></dd>
+                            </dl>
+                            <hr> <a href="#" class="btn btn-out btn-primary btn-square btn-main" data-abc="true"> Make request </a> <a href="#" class="btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">PAY</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+</html>
